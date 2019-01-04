@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "hal.h": "c",
+        "hal_usb.h": "c",
+        "*.tcc": "cpp"
+    },
+    "git.ignoreLimitWarning": true
+}

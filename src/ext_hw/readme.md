@@ -1,0 +1,1 @@
+This folder contains source code for driving external devices that require specific communication protocals.

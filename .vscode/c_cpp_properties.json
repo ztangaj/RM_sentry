@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src/_default/config",
+                "${workspaceFolder}/src/_default/board",
+                "${workspaceFolder}/chibios/os/various/cpp_wrappers",
+                "${workspaceFolder}/chibios/os/rt/include",
+                "${workspaceFolder}/chibios/os/lib/include",
+                "${workspaceFolder}/chibios/os/license",
+                "${workspaceFolder}/chibios/os/common/ports/ARMCMx/compilers/GCC",
+                "${workspaceFolder}/chibios/os/common/ports/ARMCMx",
+                "${workspaceFolder}/chibios/os/common/startup/ARMCMx/devices/STM32F4xx",
+                "${workspaceFolder}/chibios/os/common/ext/ST/STM32F4xx",
+                "${workspaceFolder}/chibios/os/common/ext/ARM/CMSIS/Core/Include",
+                "${workspaceFolder}/chibios/os/hal/include",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/LLD/TIMv1",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/STM32F4xx",
+                "${workspaceFolder}/chibios/os/common/oslib/include",
+                "${workspaceFolder}/chibios/os/hal/osal/rt",
+                "${workspaceFolder}/chibios/os/hal/ports/common/ARMCMx",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/LLD/DMAv2",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/LLD/GPIOv2",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/LLD/USARTv1",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/LLD/SPIv1",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/LLD/OTGv1",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/LLD/CANv1",
+                "${workspaceFolder}/chibios/os/various/shell",
+                "${workspaceFolder}/chibios/os/hal/lib/streams",
+                "/usr/include/libusb-1.0",
+                "/home/acw/Desktop/CMSIS_5/CMSIS/DSP/Include",
+                "${workspaceFolder}/src/ssd1306",
+                "/home/acw/Desktop/ChibiOS/os/hal/ports/STM32/LLD/ADCv2",
+                "${workspaceFolder}/src/peripherals",
+                "${workspaceFolder}/src/ext_hw",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/chibios/os/hal/ports/STM32/LLD/ADCv2",
+                "${workspaceFolder}/CMSIS/DSP/Include",
+                "${workspaceFolder}/src/_default"
+            ],
+            "defines": [
+                "ARM_MATH_CM4",
+                "CHPRINTF_USE_FLOAT",
+                "SHELL_CONFIG_FILE",
+                "BOARD_OTG_NOVBUSSENS"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

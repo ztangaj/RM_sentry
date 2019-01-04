@@ -1,0 +1,19 @@
+OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=899, h=316, FilterBarShown=0, 
+OpenWindow="Memory Content1", DockArea=BOTTOM, x=0, y=0, w=899, h=316, FilterBarShown=0, 
+OpenWindow="Global Data", DockArea=BOTTOM, x=2, y=0, w=620, h=316, FilterBarShown=1, 
+OpenWindow="Call Graph", DockArea=BOTTOM, x=2, y=0, w=620, h=316, FilterBarShown=1, 
+OpenWindow="Code Profile", DockArea=LEFT, x=0, y=0, w=543, h=599, FilterBarShown=1, 
+OpenWindow="Memory Usage", DockArea=LEFT, x=0, y=0, w=543, h=599, FilterBarShown=0, 
+OpenWindow="Watched Data", DockArea=BOTTOM, x=1, y=0, w=982, h=333, FilterBarShown=0, 
+OpenWindow="Local Data", DockArea=RIGHT, x=0, y=0, w=544, h=177, FilterBarShown=0, 
+OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=543, h=599, FilterBarShown=1, 
+OpenWindow="Call Stack", DockArea=RIGHT, x=0, y=1, w=544, h=213, FilterBarShown=0, 
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=2, w=544, h=214, FilterBarShown=0, ExecCountersShown=0
+OpenToolbar="Debug", Floating=0, x=0, y=0
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[306;84;116;72;27;844;182]
+TableHeader="Call Graph", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Stack Total";"Stack Local";"Depth";"Called From"], ColWidths=[307;142;149;89;90]
+TableHeader="Code Profile", SortCol="File / Function", SortOrder="ASCENDING", VisibleCols=["Source Coverage";"File / Function";"Inst. Coverage";"Run Count";"Fetch Count";"Load"], ColWidths=[212;176;181;140;156;84]
+TableHeader="Watched Data", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh";"Access"], ColWidths=[84;84;84;67;663]
+TableHeader="Local Data", SortCol="Location", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[305;249;84;72;100;93;59]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Class";"Source"], ColWidths=[89;113;72;89;27;147]
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Info";"Source";"PC";"Return Address"], ColWidths=[160;100;145;75;96]
